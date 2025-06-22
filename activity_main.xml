@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neuron AI is listening..."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="#333333" />
+
+        <EditText
+            android:id="@+id/userInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your message..."
+            android:textColor="#FFFFFF"
+            android:background="#222222"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/voiceInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speak" />
+
+        <TextView
+            android:id="@+id/awarenessText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:text="Awareness Info" />
+
+        <Button
+            android:id="@+id/openSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Device Settings" />
+
+    </LinearLayout>
+</ScrollView>
